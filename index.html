@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="parentContainer">
+        <div class="container flex bg-black">
+            <div class="left">
+                <div class="home bg-grey rounded ">
+                    <img src="images/close.svg" alt="" class="close">
+                    <div class="logo invert"><img src="images/logo.svg" alt=""></div>
+                    <ul>
+                        <li><img class="invert" src="images/home.svg" alt="home">Home</li>
+                        <li><img class="invert" src="images/search.svg" alt="search">Search</li>
+                    </ul>
+                </div>
+                <div class="library bg-grey rounded ">
+                    <div class="parentHeading">
+                        <div class="heading">
+                            <img class="invert" src="images/playlist.svg" alt="">
+                            <h2>
+                                Your Library
+                            </h2>
+                        </div>
+                        <div class="plus"><svg class="invert" data-encore-id="icon" role="img" aria-hidden="true"
+                                viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                                <path
+                                    d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="songList">
+                        <ul>
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+            <div class="right bg-grey rounded">
+                <div class="header rounded">
+                    <img src="images/hamburger.svg" alt="" class="hamburger">
+                    <div class="buttons">
+                        <button class="signupBtn">Sign up</button>
+                        <button class="loginBtn">Log in</button>
+                    </div>
+
+                </div>
+                <div class="spotify-playlists">
+
+                    <h1>Spotify Playlists</h1>
+                    <div class="cardContainer ">
+                       
+
+                    </div>
+
+                </div>
+
+                <div class="footer">
+                    <div class="footerTxt">
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/">
+                                <span>Legal</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                                <span>Safety &amp; Privacy Center</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                                <span>Privacy Policy</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                                <span>Cookies</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                                <span>About Ads</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/accessibility/">
+                                <span>Accessibility</span>
+                            </a>
+                        </div>
+
+                        <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+
+                    <div class="langBtn">
+                        <svg class="invert" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16"
+                            class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path
+                                d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z">
+                            </path>
+                        </svg>
+                        <span>English</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="parentPlaybar">
+            <div class="playbar">
+                <div class="playbarLeft">
+                    <div class="parentsonginfo">
+                        <div class="songinfoImg">
+                            <img id="songinfoImg" class="invert" src="images/music.svg" alt="">
+                        </div>
+                        <div class="songinfo">
+                            <div id="scrollingText" class="songName"></div>
+                            <div class="songArtist"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parentPlaybarMiddle">
+                    <div class="playbarMiddle">
+                        <img class="playbarimg" id="shuffle" src="images/shuffle.svg" alt="">
+
+
+                        <img class="playbarimg" id="previous" src="images/previous.svg" alt="">
+
+                        <button id="playBtn" class="playsong">
+                            <img id="play" src="images/play.svg" alt="">
+
+                        </button>
+
+                        <img class="playbarimg" id="next" src="images/nextsong.svg" alt="">
+
+                        <img class="playbarimg" id="repeat" src="images/repeat.svg" alt="">
+                    </div>
+                    <div class="parentSeekbar">
+                        <div class="songCurrentTime songTime">
+
+                        </div>
+                        <div class="seekbar">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+
+                        <div class="songDuration songTime">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="playbarRight">
+                    <!-- <button class="playbarBtn"><svg data-encore-id="icon" role="img" aria-hidden="true"
+                            viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path d="M11.196 8 6 5v6l5.196-3z"></path>
+                            <path
+                                d="M15.002 1.75A1.75 1.75 0 0 0 13.252 0h-10.5a1.75 1.75 0 0 0-1.75 1.75v12.5c0 .966.783 1.75 1.75 1.75h10.5a1.75 1.75 0 0 0 1.75-1.75V1.75zm-1.75-.25a.25.25 0 0 1 .25.25v12.5a.25.25 0 0 1-.25.25h-10.5a.25.25 0 0 1-.25-.25V1.75a.25.25 0 0 1 .25-.25h10.5z">
+                            </path>
+                        </svg></button>
+
+                    <button class="playbarBtn"><svg data-encore-id="icon" role="img" aria-hidden="true"
+                            viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path
+                                d="M13.426 2.574a2.831 2.831 0 0 0-4.797 1.55l3.247 3.247a2.831 2.831 0 0 0 1.55-4.797zM10.5 8.118l-2.619-2.62A63303.13 63303.13 0 0 0 4.74 9.075L2.065 12.12a1.287 1.287 0 0 0 1.816 1.816l3.06-2.688 3.56-3.129zM7.12 4.094a4.331 4.331 0 1 1 4.786 4.786l-3.974 3.493-3.06 2.689a2.787 2.787 0 0 1-3.933-3.933l2.676-3.045 3.505-3.99z">
+                            </path>
+                        </svg></button>
+
+                    <button class="playbarBtn"><svg data-encore-id="icon" role="img" aria-hidden="true"
+                            viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path
+                                d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 0 1 3.5 1h9a2.5 2.5 0 0 1 0 5h-9A2.5 2.5 0 0 1 1 3.5zm2.5-1a1 1 0 0 0 0 2h9a1 1 0 1 0 0-2h-9z">
+                            </path>
+                        </svg></button>
+
+                    <button class="playbarBtn"><svg data-encore-id="icon" role="presentation" aria-hidden="true"
+                            class="Svg-sc-ytk21e-0 dYnaPI" viewBox="0 0 16 16">
+                            <path
+                                d="M6 2.75C6 1.784 6.784 1 7.75 1h6.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15h-6.5A1.75 1.75 0 0 1 6 13.25V2.75zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25h-6.5zm-6 0a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25H4V11H1.75A1.75 1.75 0 0 1 0 9.25v-6.5C0 1.784.784 1 1.75 1H4v1.5H1.75zM4 15H2v-1.5h2V15z">
+                            </path>
+                            <path d="M13 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm-1-5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+                        </svg></button> -->
+                    <div class="volume">
+                        <button class="playbarBtn"><img src="images/volume.svg" alt=""></button>
+
+                        <div class="range">
+                            <input type="range" name="volume" id="">
+                        </div>
+                    </div>
+
+                    <!-- <button class="playbarBtn"><svg data-encore-id="icon" role="img" aria-hidden="true"
+                            viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path
+                                d="M16 2.45c0-.8-.65-1.45-1.45-1.45H1.45C.65 1 0 1.65 0 2.45v11.1C0 14.35.65 15 1.45 15h5.557v-1.5H1.5v-11h13V7H16V2.45z">
+                            </path>
+                            <path
+                                d="M15.25 9.007a.75.75 0 0 1 .75.75v4.493a.75.75 0 0 1-.75.75H9.325a.75.75 0 0 1-.75-.75V9.757a.75.75 0 0 1 .75-.75h5.925z">
+                            </path>
+                        </svg></button>
+
+                    <button class="playbarBtn"><svg data-encore-id="icon" role="img" aria-hidden="true"
+                            viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path
+                                d="M6.53 9.47a.75.75 0 0 1 0 1.06l-2.72 2.72h1.018a.75.75 0 0 1 0 1.5H1.25v-3.579a.75.75 0 0 1 1.5 0v1.018l2.72-2.72a.75.75 0 0 1 1.06 0zm2.94-2.94a.75.75 0 0 1 0-1.06l2.72-2.72h-1.018a.75.75 0 1 1 0-1.5h3.578v3.579a.75.75 0 0 1-1.5 0V3.81l-2.72 2.72a.75.75 0 0 1-1.06 0z">
+                            </path>
+                        </svg></button> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
